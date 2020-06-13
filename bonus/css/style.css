@@ -1,5 +1,74 @@
+/* general rules */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-/* debug */
-body {
-  background-color: red;
+/* main rules */
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+/* title rules */
+.title h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-size: 4rem;
+}
+
+/* banda rules */
+.banda img {
+  height: 540px;
+}
+
+/* form-pass rules*/
+.form-pass {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.password {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  border-radius: 20%;
+  background-color: #fff;
+}
+
+.password p#secure-pass {
+  font-size: 3rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+.copy-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 60px;
+  background-color: #de7710;
+}
+
+.copy-button a {
+  text-decoration: none;
+  color: #015078;
+}
+
+.copy-button:hover  {
+  transform: scale(1.5);
 }
